@@ -40,7 +40,7 @@ import java.time.LocalDateTime;
         return this.horario.compareTo(outro.horario);
     }
     
-    public boolean estaOcorredoAgora(){
+    public boolean estaOcorrendoAgora(){
     LocalDateTime agora = LocalDateTime.now();
     
     LocalDateTime fim = horario.plusHours(2);
