@@ -17,7 +17,7 @@ public class Usuario {
     }
     public String  getNome(){ return nome; }
     public String getEmail() {return email;}
-    public String getTelefone(){return email; }
+    public String getTelefone(){return telefone; }
     public List<Evento> getEventosConfirmados() {return eventosConfirmados;}
     
     public void confirmarEvento(Evento evento){
